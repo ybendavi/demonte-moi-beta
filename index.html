@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Démonte moi — rejoindre la bêta</title>
+<meta name="description" content="Trois étapes pour tester Démonte moi sur Android.">
+<style>
+  :root{ color-scheme: dark; --cyan:#00ffff; --pink:#FF1493; --bg:#0d0d12; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:'Poppins',system-ui,-apple-system,'Segoe UI',sans-serif;
+    background:
+      radial-gradient(ellipse at 20% 0%, rgba(255,20,147,.22) 0%, rgba(255,20,147,0) 55%),
+      radial-gradient(ellipse at 85% 25%, rgba(0,255,255,.16) 0%, rgba(0,255,255,0) 50%),
+      linear-gradient(170deg,#170a24 0%,#0d0d12 60%,#100a1c 100%);
+    background-attachment:fixed; color:#f0f0f0; line-height:1.6;
+    padding:2.5rem 1rem 4rem;
+  }
+  main{max-width:660px;margin:0 auto}
+  .hero{text-align:center;margin-bottom:2.5rem}
+  .mug{font-size:3.2rem;line-height:1}
+  h1{font-size:clamp(2rem,8vw,2.9rem);font-weight:800;letter-spacing:1px;text-transform:uppercase;margin:.4rem 0 .2rem;
+     color:#eafeff;text-shadow:0 0 12px rgba(0,255,255,.85),0 0 38px rgba(0,255,255,.45)}
+  .sub{color:var(--pink);font-weight:600;font-size:1.05rem;text-shadow:0 0 10px rgba(255,20,147,.6)}
+  .warn{margin:1.6rem auto 0;max-width:520px;border:1px solid rgba(255,80,80,.5);background:rgba(255,60,60,.10);
+        border-radius:12px;padding:.85rem 1rem;font-size:.92rem;color:#ffd9d9}
+  .step{position:relative;border:1px solid rgba(0,255,255,.22);background:rgba(255,255,255,.035);
+        border-radius:16px;padding:1.4rem 1.4rem 1.5rem 3.7rem;margin-bottom:1.1rem}
+  .num{position:absolute;left:1.1rem;top:1.35rem;width:1.9rem;height:1.9rem;border-radius:50%;
+       display:grid;place-items:center;font-weight:800;font-size:.95rem;color:#0d0d12;background:var(--cyan);
+       box-shadow:0 0 16px rgba(0,255,255,.6)}
+  .step h2{font-size:1.12rem;font-weight:700;margin-bottom:.35rem;color:#fff}
+  .step p{font-size:.95rem;color:#c9c9d4}
+  .btn{display:inline-block;margin-top:.9rem;padding:.75rem 1.4rem;border-radius:999px;font-weight:700;
+       text-decoration:none;background:linear-gradient(90deg,#FF1493,#bf40bf);color:#fff;
+       box-shadow:0 0 22px rgba(255,20,147,.55);font-size:.98rem}
+  .btn.ghost{background:transparent;border:1.5px solid var(--cyan);color:var(--cyan);box-shadow:0 0 16px rgba(0,255,255,.25)}
+  .qr{margin:2.2rem auto 0;max-width:250px;text-align:center}
+  .qr svg{width:190px;height:190px;background:#fff;border-radius:12px;padding:8px;display:block;margin:0 auto .6rem}
+  .qr p{font-size:.85rem;color:#9a9aa8}
+  h3{margin:2.6rem 0 .9rem;font-size:1.05rem;color:var(--cyan);letter-spacing:.5px;text-transform:uppercase}
+  details{border-top:1px solid rgba(255,255,255,.09);padding:.85rem 0}
+  summary{cursor:pointer;font-weight:600;font-size:.97rem;color:#e8e8f0}
+  details p{margin-top:.5rem;font-size:.92rem;color:#b9b9c6}
+  .note{margin-top:2.4rem;font-size:.85rem;color:#8b8b99;text-align:center;line-height:1.7}
+  code{background:rgba(255,255,255,.08);padding:.1rem .35rem;border-radius:4px;font-size:.88em}
+</style>
+</head>
+<body>
+<main>
+
+  <div class="hero">
+    <div class="mug">🍺</div>
+    <h1>Démonte moi</h1>
+    <div class="sub">Tu es invité à tester le jeu avant tout le monde</div>
+    <div class="warn">
+      ⚠️ <strong>Réservé aux plus de 18 ans.</strong> L'abus d'alcool est dangereux pour la santé.
+      Tous les défis peuvent être relevés sans alcool.
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="num">1</div>
+    <h2>Deviens testeur</h2>
+    <p>Clique sur le bouton, connecte-toi avec ton compte Google, puis appuie sur <strong>« Devenir testeur »</strong>.
+       Ça prend dix secondes et c'est gratuit.</p>
+    <a class="btn" href="https://play.google.com/apps/testing/com.demontemoi.app">Devenir testeur</a>
+  </div>
+
+  <div class="step">
+    <div class="num">2</div>
+    <h2>Installe l'app</h2>
+    <p>Sur la même page, un lien <strong>« Télécharger sur Google Play »</strong> apparaît.
+       Installe depuis le Play Store, avec <strong>le même compte Google</strong> que celui de l'étape 1.</p>
+    <a class="btn ghost" href="https://play.google.com/store/apps/details?id=com.demontemoi.app">Ouvrir dans le Play Store</a>
+  </div>
+
+  <div class="step">
+    <div class="num">3</div>
+    <h2>Joue, puis balance ton avis</h2>
+    <p>Fais au moins une partie complète avec des potes. À la fin, le bouton de retour en bas de l'écran d'accueil
+       envoie tes remarques directement au développeur : bug, idée, blague qui tombe à plat. Tout compte.</p>
+  </div>
+
+  <div class="qr">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><rect width="37" height="37" fill="#ffffff"/><g fill="#0d0d12"><rect x="2" y="2" width="7" height="1"/><rect x="13" y="2" width="3" height="1"/><rect x="19" y="2" width="2" height="1"/><rect x="24" y="2" width="1" height="1"/><rect x="28" y="2" width="7" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="8" y="3" width="1" height="1"/><rect x="10" y="3" width="3" height="1"/><rect x="18" y="3" width="1" height="1"/><rect x="20" y="3" width="1" height="1"/><rect x="22" y="3" width="3" height="1"/><rect x="26" y="3" width="1" height="1"/><rect x="28" y="3" width="1" height="1"/><rect x="34" y="3" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="4" y="4" width="3" height="1"/><rect x="8" y="4" width="1" height="1"/><rect x="10" y="4" width="5" height="1"/><rect x="16" y="4" width="1" height="1"/><rect x="18" y="4" width="1" height="1"/><rect x="21" y="4" width="1" height="1"/><rect x="23" y="4" width="3" height="1"/><rect x="28" y="4" width="1" height="1"/><rect x="30" y="4" width="3" height="1"/><rect x="34" y="4" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="4" y="5" width="3" height="1"/><rect x="8" y="5" width="1" height="1"/><rect x="10" y="5" width="5" height="1"/><rect x="16" y="5" width="4" height="1"/><rect x="22" y="5" width="2" height="1"/><rect x="25" y="5" width="2" height="1"/><rect x="28" y="5" width="1" height="1"/><rect x="30" y="5" width="3" height="1"/><rect x="34" y="5" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/><rect x="4" y="6" width="3" height="1"/><rect x="8" y="6" width="1" height="1"/><rect x="13" y="6" width="1" height="1"/><rect x="16" y="6" width="4" height="1"/><rect x="21" y="6" width="3" height="1"/><rect x="25" y="6" width="1" height="1"/><rect x="28" y="6" width="1" height="1"/><rect x="30" y="6" width="3" height="1"/><rect x="34" y="6" width="1" height="1"/><rect x="2" y="7" width="1" height="1"/><rect x="8" y="7" width="1" height="1"/><rect x="11" y="7" width="1" height="1"/><rect x="14" y="7" width="1" height="1"/><rect x="16" y="7" width="2" height="1"/><rect x="19" y="7" width="1" height="1"/><rect x="23" y="7" width="2" height="1"/><rect x="28" y="7" width="1" height="1"/><rect x="34" y="7" width="1" height="1"/><rect x="2" y="8" width="7" height="1"/><rect x="10" y="8" width="1" height="1"/><rect x="12" y="8" width="1" height="1"/><rect x="14" y="8" width="1" height="1"/><rect x="16" y="8" width="1" height="1"/><rect x="18" y="8" width="1" height="1"/><rect x="20" y="8" width="1" height="1"/><rect x="22" y="8" width="1" height="1"/><rect x="24" y="8" width="1" height="1"/><rect x="26" y="8" width="1" height="1"/><rect x="28" y="8" width="7" height="1"/><rect x="10" y="9" width="2" height="1"/><rect x="17" y="9" width="2" height="1"/><rect x="21" y="9" width="2" height="1"/><rect x="24" y="9" width="1" height="1"/><rect x="2" y="10" width="1" height="1"/><rect x="8" y="10" width="1" height="1"/><rect x="10" y="10" width="1" height="1"/><rect x="15" y="10" width="2" height="1"/><rect x="19" y="10" width="1" height="1"/><rect x="21" y="10" width="1" height="1"/><rect x="24" y="10" width="5" height="1"/><rect x="31" y="10" width="3" height="1"/><rect x="3" y="11" width="3" height="1"/><rect x="9" y="11" width="1" height="1"/><rect x="12" y="11" width="7" height="1"/><rect x="20" y="11" width="2" height="1"/><rect x="23" y="11" width="4" height="1"/><rect x="30" y="11" width="3" height="1"/><rect x="3" y="12" width="2" height="1"/><rect x="8" y="12" width="2" height="1"/><rect x="11" y="12" width="1" height="1"/><rect x="13" y="12" width="6" height="1"/><rect x="20" y="12" width="1" height="1"/><rect x="24" y="12" width="1" height="1"/><rect x="27" y="12" width="2" height="1"/><rect x="30" y="12" width="1" height="1"/><rect x="32" y="12" width="2" height="1"/><rect x="2" y="13" width="2" height="1"/><rect x="5" y="13" width="1" height="1"/><rect x="10" y="13" width="1" height="1"/><rect x="12" y="13" width="4" height="1"/><rect x="17" y="13" width="1" height="1"/><rect x="20" y="13" width="3" height="1"/><rect x="26" y="13" width="7" height="1"/><rect x="2" y="14" width="1" height="1"/><rect x="5" y="14" width="2" height="1"/><rect x="8" y="14" width="1" height="1"/><rect x="11" y="14" width="2" height="1"/><rect x="15" y="14" width="1" height="1"/><rect x="17" y="14" width="1" height="1"/><rect x="22" y="14" width="1" height="1"/><rect x="26" y="14" width="1" height="1"/><rect x="28" y="14" width="2" height="1"/><rect x="34" y="14" width="1" height="1"/><rect x="2" y="15" width="2" height="1"/><rect x="7" y="15" width="1" height="1"/><rect x="9" y="15" width="4" height="1"/><rect x="19" y="15" width="1" height="1"/><rect x="21" y="15" width="1" height="1"/><rect x="23" y="15" width="3" height="1"/><rect x="28" y="15" width="2" height="1"/><rect x="33" y="15" width="2" height="1"/><rect x="3" y="16" width="2" height="1"/><rect x="6" y="16" width="1" height="1"/><rect x="8" y="16" width="2" height="1"/><rect x="11" y="16" width="4" height="1"/><rect x="16" y="16" width="3" height="1"/><rect x="22" y="16" width="1" height="1"/><rect x="24" y="16" width="1" height="1"/><rect x="27" y="16" width="2" height="1"/><rect x="30" y="16" width="4" height="1"/><rect x="4" y="17" width="1" height="1"/><rect x="9" y="17" width="3" height="1"/><rect x="13" y="17" width="1" height="1"/><rect x="16" y="17" width="1" height="1"/><rect x="18" y="17" width="1" height="1"/><rect x="22" y="17" width="1" height="1"/><rect x="27" y="17" width="1" height="1"/><rect x="30" y="17" width="3" height="1"/><rect x="34" y="17" width="1" height="1"/><rect x="2" y="18" width="4" height="1"/><rect x="7" y="18" width="4" height="1"/><rect x="13" y="18" width="1" height="1"/><rect x="15" y="18" width="1" height="1"/><rect x="17" y="18" width="5" height="1"/><rect x="24" y="18" width="1" height="1"/><rect x="27" y="18" width="1" height="1"/><rect x="29" y="18" width="2" height="1"/><rect x="34" y="18" width="1" height="1"/><rect x="9" y="19" width="1" height="1"/><rect x="12" y="19" width="1" height="1"/><rect x="16" y="19" width="3" height="1"/><rect x="20" y="19" width="2" height="1"/><rect x="25" y="19" width="1" height="1"/><rect x="27" y="19" width="2" height="1"/><rect x="31" y="19" width="4" height="1"/><rect x="2" y="20" width="2" height="1"/><rect x="5" y="20" width="2" height="1"/><rect x="8" y="20" width="4" height="1"/><rect x="14" y="20" width="1" height="1"/><rect x="17" y="20" width="5" height="1"/><rect x="23" y="20" width="1" height="1"/><rect x="25" y="20" width="1" height="1"/><rect x="29" y="20" width="1" height="1"/><rect x="31" y="20" width="2" height="1"/><rect x="34" y="20" width="1" height="1"/><rect x="2" y="21" width="4" height="1"/><rect x="7" y="21" width="1" height="1"/><rect x="11" y="21" width="2" height="1"/><rect x="14" y="21" width="3" height="1"/><rect x="20" y="21" width="1" height="1"/><rect x="22" y="21" width="1" height="1"/><rect x="26" y="21" width="2" height="1"/><rect x="30" y="21" width="5" height="1"/><rect x="5" y="22" width="2" height="1"/><rect x="8" y="22" width="5" height="1"/><rect x="14" y="22" width="1" height="1"/><rect x="17" y="22" width="1" height="1"/><rect x="20" y="22" width="1" height="1"/><rect x="24" y="22" width="1" height="1"/><rect x="26" y="22" width="1" height="1"/><rect x="29" y="22" width="3" height="1"/><rect x="2" y="23" width="1" height="1"/><rect x="5" y="23" width="3" height="1"/><rect x="9" y="23" width="1" height="1"/><rect x="11" y="23" width="4" height="1"/><rect x="16" y="23" width="1" height="1"/><rect x="19" y="23" width="3" height="1"/><rect x="23" y="23" width="3" height="1"/><rect x="29" y="23" width="3" height="1"/><rect x="2" y="24" width="1" height="1"/><rect x="8" y="24" width="2" height="1"/><rect x="13" y="24" width="1" height="1"/><rect x="15" y="24" width="2" height="1"/><rect x="19" y="24" width="1" height="1"/><rect x="22" y="24" width="1" height="1"/><rect x="24" y="24" width="1" height="1"/><rect x="26" y="24" width="1" height="1"/><rect x="30" y="24" width="1" height="1"/><rect x="33" y="24" width="1" height="1"/><rect x="2" y="25" width="1" height="1"/><rect x="5" y="25" width="1" height="1"/><rect x="7" y="25" width="1" height="1"/><rect x="9" y="25" width="1" height="1"/><rect x="11" y="25" width="2" height="1"/><rect x="16" y="25" width="3" height="1"/><rect x="21" y="25" width="2" height="1"/><rect x="24" y="25" width="1" height="1"/><rect x="29" y="25" width="6" height="1"/><rect x="2" y="26" width="7" height="1"/><rect x="10" y="26" width="1" height="1"/><rect x="13" y="26" width="1" height="1"/><rect x="22" y="26" width="1" height="1"/><rect x="25" y="26" width="7" height="1"/><rect x="34" y="26" width="1" height="1"/><rect x="10" y="27" width="2" height="1"/><rect x="13" y="27" width="10" height="1"/><rect x="26" y="27" width="1" height="1"/><rect x="30" y="27" width="1" height="1"/><rect x="32" y="27" width="3" height="1"/><rect x="2" y="28" width="7" height="1"/><rect x="12" y="28" width="1" height="1"/><rect x="14" y="28" width="2" height="1"/><rect x="17" y="28" width="1" height="1"/><rect x="19" y="28" width="1" height="1"/><rect x="23" y="28" width="4" height="1"/><rect x="28" y="28" width="1" height="1"/><rect x="30" y="28" width="1" height="1"/><rect x="32" y="28" width="2" height="1"/><rect x="2" y="29" width="1" height="1"/><rect x="8" y="29" width="1" height="1"/><rect x="13" y="29" width="4" height="1"/><rect x="18" y="29" width="3" height="1"/><rect x="25" y="29" width="2" height="1"/><rect x="30" y="29" width="5" height="1"/><rect x="2" y="30" width="1" height="1"/><rect x="4" y="30" width="3" height="1"/><rect x="8" y="30" width="1" height="1"/><rect x="12" y="30" width="1" height="1"/><rect x="14" y="30" width="1" height="1"/><rect x="17" y="30" width="2" height="1"/><rect x="21" y="30" width="1" height="1"/><rect x="24" y="30" width="1" height="1"/><rect x="26" y="30" width="6" height="1"/><rect x="33" y="30" width="1" height="1"/><rect x="2" y="31" width="1" height="1"/><rect x="4" y="31" width="3" height="1"/><rect x="8" y="31" width="1" height="1"/><rect x="11" y="31" width="1" height="1"/><rect x="13" y="31" width="2" height="1"/><rect x="16" y="31" width="1" height="1"/><rect x="20" y="31" width="3" height="1"/><rect x="26" y="31" width="2" height="1"/><rect x="29" y="31" width="6" height="1"/><rect x="2" y="32" width="1" height="1"/><rect x="4" y="32" width="3" height="1"/><rect x="8" y="32" width="1" height="1"/><rect x="12" y="32" width="4" height="1"/><rect x="17" y="32" width="1" height="1"/><rect x="19" y="32" width="3" height="1"/><rect x="27" y="32" width="1" height="1"/><rect x="29" y="32" width="2" height="1"/><rect x="33" y="32" width="2" height="1"/><rect x="2" y="33" width="1" height="1"/><rect x="8" y="33" width="1" height="1"/><rect x="13" y="33" width="2" height="1"/><rect x="22" y="33" width="1" height="1"/><rect x="24" y="33" width="1" height="1"/><rect x="27" y="33" width="4" height="1"/><rect x="32" y="33" width="1" height="1"/><rect x="2" y="34" width="7" height="1"/><rect x="10" y="34" width="1" height="1"/><rect x="12" y="34" width="2" height="1"/><rect x="17" y="34" width="3" height="1"/><rect x="21" y="34" width="1" height="1"/><rect x="24" y="34" width="3" height="1"/><rect x="28" y="34" width="2" height="1"/><rect x="33" y="34" width="1" height="1"/></g></svg>
+    <p>Partage cette page : scanne ou transfère le lien.</p>
+  </div>
+
+  <h3>Ça coince ?</h3>
+
+  <details>
+    <summary>Je ne trouve pas l'app sur le Play Store</summary>
+    <p>Trois causes, dans l'ordre de fréquence : tu n'as pas encore cliqué sur « Devenir testeur » (étape 1) ;
+       tu utilises un autre compte Google que celui inscrit ; ou l'inscription vient d'être faite et Google met
+       quelques minutes à propager. Attends 15 minutes, puis réessaie depuis le lien de l'étape 2.</p>
+  </details>
+
+  <details>
+    <summary>Quelqu'un m'a envoyé un APK, je peux l'installer directement ?</summary>
+    <p>Non — enfin, si, mais ça ne compte pas. Google ne valide le test que si l'installation passe par le
+       Play Store avec un compte inscrit. Une install par fichier ne sert à rien pour la bêta.</p>
+  </details>
+
+  <details>
+    <summary>Combien de temps je dois garder l'app ?</summary>
+    <p>Au moins <strong>14 jours</strong>. Google exige 12 testeurs inscrits en continu pendant deux semaines
+       avant d'autoriser la sortie publique. Si tu désinstalles ou quittes le programme avant, le compteur
+       repart de zéro pour tout le monde. Une partie ou deux dans la période, c'est parfait.</p>
+  </details>
+
+  <details>
+    <summary>Est-ce que mes données sont collectées ?</summary>
+    <p>Aucun compte, aucune pub, aucun traceur. La seule chose qui quitte ton téléphone, c'est ce que tu écris
+       toi-même dans le formulaire de retour. Le détail est dans la
+       <a href="https://ybendavi.github.io/demonte-moi-legal/" style="color:var(--cyan)">politique de confidentialité</a>.</p>
+  </details>
+
+  <details>
+    <summary>Je suis sur iPhone</summary>
+    <p>La bêta est Android uniquement pour l'instant. Une version iOS existe côté code mais n'est pas distribuée.</p>
+  </details>
+
+  <p class="note">
+    Démonte moi — version de test fermée · <code>com.demontemoi.app</code><br>
+    Une question ? Écris à <a href="mailto:yuritoast76@gmail.com" style="color:var(--cyan)">yuritoast76@gmail.com</a>
+  </p>
+
+</main>
+</body>
+</html>
